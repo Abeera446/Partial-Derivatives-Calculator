@@ -14,14 +14,18 @@ Built with Java and Maven. Uses **Symja (Matheclipse)** for symbolic math operat
 - Verify **Laplace's Equation**
 - Menu-driven CLI
 
+## How It Works  
+1. Run the program using Maven.  
+2. You’ll see a menu with options.  
+3. Enter a choice (1–8).  
+4. The program will ask you for a function and perform the calculation.
+
 ---
 
 ## Tech stack
 - Java (8+; Java 17 recommended)
 - Maven
 - Symja / Matheclipse (symbolic math library)
-
----
 
 ## Add Symja dependency (pom.xml)
 Add this dependency into your `<dependencies>` in `pom.xml`:
